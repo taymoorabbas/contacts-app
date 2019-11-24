@@ -34,35 +34,39 @@ public class MainActivity extends AppCompatActivity {
 
           DatabaseHandler database = new DatabaseHandler(MainActivity.this);
 
-//        Contact contact1 = new Contact("adam khor","24253643");
-//        database.addContact(contact1);
-//
-//        Contact contact2 = new Contact("malik al mout","75778493");
-//        database.addContact(contact2);
-//
-//        Contact contact3 = new Contact("pakora","99292993949");
-//        database.addContact(contact3);
-//
-//        Contact contact4 = new Contact("mechanic","112424249");
-//        database.addContact(contact4);
-//
-//        Contact contact5 = new Contact("kasai","99847377282");
-//        database.addContact(contact5);
-//
-//        Contact contact6 = new Contact("ghulam mustafa","678849930");
-//        database.addContact(contact6);
-//
-//        Contact contact7 = new Contact("machhar","00010304043");
-//        database.addContact(contact7);
-//
-//        Contact contact8 = new Contact("ghunda","3323999390002");
-//        database.addContact(contact8);
-//
-//        Contact contact9 = new Contact("sir fida","11122333");
-//        database.addContact(contact9);
-//
-//        Contact contact10 = new Contact("qamar bajwa","8888848488448");
-//        database.addContact(contact10);
+        Contact contact1 = new Contact("adam khor","24253643");
+        database.addContact(contact1);
+
+        Contact contact2 = new Contact("malik al mout","75778493");
+        database.addContact(contact2);
+
+        Contact contact3 = new Contact("pakora","99292993949");
+        database.addContact(contact3);
+
+        Contact contact4 = new Contact("mechanic","112424249");
+        database.addContact(contact4);
+
+        Contact contact5 = new Contact("kasai","99847377282");
+        database.addContact(contact5);
+
+        Contact contact6 = new Contact("ghulam mustafa","678849930");
+        database.addContact(contact6);
+
+        Contact contact7 = new Contact("machhar","00010304043");
+        database.addContact(contact7);
+
+        Contact contact8 = new Contact("ghunda","3323999390002");
+        database.addContact(contact8);
+
+        Contact contact9 = new Contact("sir fida","11122333");
+        database.addContact(contact9);
+
+        Contact contact10 = new Contact("qamar bajwa","8888848488448");
+        database.addContact(contact10);
+
+        Contact contact11 = new Contact("elon musk","838290929383232");
+        database.addContact(contact11);
+
 
         final List<Contact> contacts = database.getAllContacts();
 
