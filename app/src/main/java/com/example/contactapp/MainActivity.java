@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
 
-                Toast.makeText(MainActivity.this, contacts.get(position).getPhoneNumber(), Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, contacts.get(position).getPhoneNumber() + "Oo soora", Toast.LENGTH_SHORT).show();
             }
         });
     }
