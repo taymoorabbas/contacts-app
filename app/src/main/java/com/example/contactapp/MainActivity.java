@@ -67,6 +67,9 @@ public class MainActivity extends AppCompatActivity {
         Contact contact11 = new Contact("elon musk","838290929383232");
         database.addContact(contact11);
 
+        Contact contact12 = new Contact("Khadim rizvi","013 tuadi pen di siri");
+        database.addContact(contact12);
+
 
         final List<Contact> contacts = database.getAllContacts();
 
